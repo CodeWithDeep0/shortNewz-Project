@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import NewsContent from './components/Newscontent';
 
 import axios from "axios";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
       ) : (
         <NewsContent news={news}  />
       )}
+      <Footer/>
     </div>
   );
 }
