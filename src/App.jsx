@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import NewsContent from './components/Newscontent';
+import NewsContent from './components/NewsContent';
 
 import axios from "axios";
 
