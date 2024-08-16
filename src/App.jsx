@@ -7,7 +7,6 @@ import axios from "axios";
 function App() {
   const [category, setCategory] = useState("business");
   const [news, setNews] = useState([]);
-  const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -36,7 +35,7 @@ function App() {
           <span className="loader"></span>
         </div>
       ) : (
-        <Newscontent news={news} page={page} setPage={setPage} />
+        <Newscontent news={news}  />
       )}
     </div>
   );
