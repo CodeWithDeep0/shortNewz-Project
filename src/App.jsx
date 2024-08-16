@@ -14,10 +14,12 @@ function App() {
     const newsfetch = async () => {
       setLoading(true);
       try {
-        const response = await axios.get(
+        const response = await fetch(
           ` https://api.currentsapi.services/v1/latest-news?country=in&category=${category}&apiKey=Iu6QE5CwKWcb0dA6o9OY6UZdQTaXm91tHTUtK0Ki2bv1rfPx`
         );
-        setNews(response.data.news);
+        const data = await response.json();
+        console.log(data);
+        setNews(data.news);
       } catch (error) {
         console.error(error);
       } finally {

@@ -1,10 +1,7 @@
 const category = [
+    "Business",
     "Regional",
     "Technology",
-    "Lifestyle",
-    "Business",
-    "Programming",
-    "Science",
     "Entertainment",
     "World",
     "Sports",
@@ -14,7 +11,6 @@ const category = [
     "Health",
     "Opinion",
     "Food",
-    "Game"
 ]
 
 export default category;
