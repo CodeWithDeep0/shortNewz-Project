@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Newscard = ({ news }) => {
+const NewsCard = ({ news }) => {
   const title = news.title || 'No Title Available';
   const description = news.description || 'No Description Available';
   const url = news.url;
@@ -33,4 +33,4 @@ const Newscard = ({ news }) => {
   );
 };
 
-export default Newscard;
+export default NewsCard;
