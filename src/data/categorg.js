@@ -1,5 +1,4 @@
 const category = [
-    "General",
     "Regional",
     "Technology",
     "Lifestyle",

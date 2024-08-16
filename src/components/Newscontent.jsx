@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from '@mui/material';
 import NewsCard from './Newscard';
 
-const Newscontent = ({ news}) => {
+const NewsContent = ({ news}) => {
 
 
   return (
@@ -12,10 +12,10 @@ const Newscontent = ({ news}) => {
           <NewsCard key={index} news={article} />
         ))}
       </div>
-      
+
     
     </Container>
   );
 };
 
-export default Newscontent;
+export default NewsContent;

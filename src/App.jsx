@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import Newscontent from "./components/Newscontent";
+import NewsContent from "./components/NewsContent";
 import axios from "axios";
+
 
 function App() {
   const [category, setCategory] = useState("business");
@@ -35,7 +36,7 @@ function App() {
           <span className="loader"></span>
         </div>
       ) : (
-        <Newscontent news={news}  />
+        <NewsContent news={news}  />
       )}
     </div>
   );
