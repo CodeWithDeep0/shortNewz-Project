@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from '@mui/material';
-import NewsCard from './NewsCard';
+import NewsCard from './Newscard';
 
 const NewsContent = ({ news}) => {
 
