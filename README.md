@@ -29,7 +29,7 @@ Follow these steps to set up and run the project locally.
 2. **Navigate to the project directory:**
 
    ```bash
-   cd short-news-website
+   cd shortNewz-Project
    ```
 
 3. **Install dependencies:**
@@ -76,7 +76,6 @@ Follow these steps to set up and run the project locally.
   - **Parameters**:
     - `country`: ISO 3166-1 alpha-2 country code (e.g., `us`, `in`).
     - `category`: News category (e.g., `business`, `technology`).
-    - `page`: Page number for pagination.
     - `apiKey`: Your API key.
 
 ## License
