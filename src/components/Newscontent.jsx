@@ -6,12 +6,13 @@ const Newscontent = ({ news}) => {
 
 
   return (
-    <Container maxWidth="md">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <Container maxWidth="lg">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
         {news.map((article, index) => (
           <NewsCard key={index} news={article} />
         ))}
       </div>
+      
     
     </Container>
   );

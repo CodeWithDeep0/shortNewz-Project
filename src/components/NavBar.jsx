@@ -3,7 +3,7 @@ import Sidebar from "./Sidebar"
 
 const NavBar = ({setCategory}) => {
   return (
-    <div className="h-16 w-full shadow p-2 shadow-[#888888] flex items-center justify-between">
+    <div className="h-16 w-full shadow p-2 sticky shadow-[#888888] flex items-center justify-between">
       <div className="flex items-center">
         <div>
             <Sidebar setCategory={setCategory}/>
