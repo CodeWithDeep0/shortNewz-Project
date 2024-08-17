@@ -6,7 +6,6 @@ const NewsCard = ({ news }) => {
   const url = news.url;
   const image = news.image || 'https://via.placeholder.com/150';
   const author = news.author || 'Unknown Author';
-  const publishedAt = new Date(news.published).toLocaleDateString();
 
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white dark:bg-gray-800 transition duration-500 ease-in-out transform hover:scale-105 m-4">
@@ -24,9 +23,6 @@ const NewsCard = ({ news }) => {
       <div className="px-6 pt-4 pb-2">
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-300">
           Author: {author}
-        </span>
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-300">
-          Published: {publishedAt}
         </span>
       </div>
     </div>
